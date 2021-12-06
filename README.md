@@ -30,22 +30,21 @@ Also, We used [Microsoft SQL Server 2019](https://www.microsoft.com/en-us/sql-se
 
 To download the datasets click [here](https://lustd-my.sharepoint.com/personal/ali_noureldin_st_ul_edu_lb/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fali%5Fnoureldin%5Fst%5Ful%5Fedu%5Flb%2FDocuments%2FPublications%2FConf%2E%20CAISE%2FMulti%2DProcess%20Discovery%20in%20the%20Large%2FDatasets), or contact me at ali.noureldin@st.ul.edu.lb.
 
-After install the DBMS and download the datasets,
-For Neo4j,first one cypher-shell and run:
+After install the DBMS and download the datasets, for Neo4j, to restore the dataset,first open cypher-shell and run:
 ```
 neo4j-admin load --from=$PWD/<dataset_name>.dump --database=neo4j --force
 ```
 Then, you can run any query.
 
 
-For Microsot SQL Server, run:
+For Microsot SQL Server, to restore the database, run:
 ```
 RESTORE DATABASE BPIDATASETS FROM DISK = '$PWD/databases.bak' WITH NORECOVERY
 ```
 Then, you can run the query to extract directly follows relation.
 
 ## Development
-After install Neo4j, you can run different queries to extract directly follows graph from graph database. You just need to change the Object_FollowedBy relation and the type of object in same cases.
+After install Neo4j and restore the database, you can run different queries to extract directly follows graph from graph database. You just need to change the Object_FollowedBy relation and the type of object in same cases.
 
 For on the fly query , you change the label the relation named "relation" from "AppFollowedBy" to target relation: 
 ```
