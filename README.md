@@ -1,4 +1,4 @@
-# Multi-Process Discovery in the Large
+# Enabling Multi-Process Discovery on Graph Databases
 ## Table of Content
 
 <ul>
