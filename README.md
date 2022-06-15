@@ -28,7 +28,7 @@ pip install pm4py
 Also, We used [Microsoft SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) as a DBMS for Relational Databases. 
 
 
-To download the datasets click [here](https://lustd-my.sharepoint.com/personal/ali_noureldin_st_ul_edu_lb/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fali%5Fnoureldin%5Fst%5Ful%5Fedu%5Flb%2FDocuments%2FPublications%2FConf%2E%20CAISE%2FMulti%2DProcess%20Discovery%20in%20the%20Large%2FDatasets), or contact me at ali.nour-eldin@bontasoft.com.
+To download the datasets click [here](https://drive.google.com/drive/folders/1Zo23Uidml6z8P_u_WiFYqeA-RskMTc1T?usp=sharing), or contact me at ali.nour-eldin@bonitasoft.com.
 
 After install the DBMS and download the datasets, for Neo4j, to restore the dataset,first open cypher-shell and run:
 ```
